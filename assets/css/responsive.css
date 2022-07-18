@@ -1,0 +1,60 @@
+/* mobile + tablet */
+@media (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .show-on-tablet {
+        display: block !important;
+    }
+}
+
+/* tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+    .review__des {
+        padding: 0 100px !important;
+    }
+    .contact__address {
+        margin-top: 40px !important;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .show-on-mobile {
+        display: block !important;
+    }
+    .header {
+        padding: 10px 20px !important;
+    }
+    .slider__text-des {
+        padding: 0 20px !important;
+    }
+    .about {
+        padding: 80px 20px !important;
+    }
+    .service__item {
+        margin: 0 20px 20px 20px;
+    }
+    .project__item {
+        margin: 0 20px;
+    }
+    .review__des {
+        padding: 0 50px !important;
+    }
+    .post__item {
+        padding: 0 20px 28px 20px;
+    }
+    .contact__input {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .contact__add {
+        margin-top: 20px;
+    }
+    .contact__btn {
+        padding-left: 20px;
+    }
+}

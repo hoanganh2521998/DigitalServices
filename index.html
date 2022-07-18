@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <!-- header -->
+        <div class="header">
+            <div class="header__nav grid wide">
+                <div class="header__logo">
+                    <a href="#" class="header__logo-main">Services</a>
+                </div>
+                <div class="header__menu hide-on-tablet hide-on-mobile">
+                    <ul class="header__menu-nav">
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">Home</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#about" class="header__menu-link">About</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#service" class="header__menu-link">Services</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#project" class="header__menu-link">Projects</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#post" class="header__menu-link">Blog</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#contact" class="header__menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <label for="menu-nav-input" class="header__menu-symbol show-on-tablet show-on-mobile">
+                    <i class="header__menu-icon fa-solid fa-bars"></i>
+                </label>
+            </div>
+        </div>
+
+        <!-- checkbox -->
+        <input type="checkbox" hidden class="input" id="menu-nav-input">
+
+        <!-- overlay -->
+        <label for="menu-nav-input" class="overlay">
+
+        </label>
+
+        <!-- menu on mobile -->
+        <label for="menu-nav-input" class="menu-nav">
+            <label for="menu-nav-input" class="menu-symbol">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#about" class="menu-link">About</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#service" class="menu-link">Services</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#project" class="menu-link">Projects</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#post" class="menu-link">Blog</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contact" class="menu-link">Contact</a>
+                </li>
+            </ul>
+        </label>
+
+        <!-- slider -->
+        <div id="slider" class="slider">
+            <div class="grid wide">
+                <div class="slider__info">
+                    <h2 class="slider__tittle">We Are Digital Services</h2>
+                    <p class="slider__text-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos magnam maxime voluptates libero, nobis impedit aut corrupti sunt possimus.</p>
+                    <div class="slider__btn">
+                        <a href="" class="slider__btn-text">Our services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- about -->
+        <div id="about" class="about">
+            <div class="grid wide">
+                <h2 class="about__tittle">About Us</h2>
+                <div class="row">
+                    <div class="col l-4 m-12 c-12">
+                        <p class="about__des">
+                            Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+                            <br>
+                            <br>
+                            The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen
+                        </p>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="about__des">
+                            <div class="about__des-img" style="background-image: url(./assets/img/bg2.jpg)">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <p class="about__des">
+                            Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+                            <br>
+                            <br>
+                            The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- services -->
+        <div id="service" class="service">
+            <div class="grid wide">
+                <h2 class="service__tittle">Services</h2>
+                <div class="row">
+                    <!-- service pick -->
+                    <div class="col l-6 m-6 c-12">
+                        <div class="service__item">
+                            <div class="service__item-icon">
+                                <img src="./assets/img/icon1.jpg" alt="" class="service__item-img">
+                            </div>
+                            <div class="service__item-des">
+                                <div class="service__item-des-tit">
+                                    <a href="" class="service__item-des-name">Content Marketing</a>
+                                </div>
+                                <div class="service__item-des-text">
+                                    <a href="" class="service__item-des-cont">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <div class="service__item">
+                            <div class="service__item-icon">
+                                <img src="./assets/img/icon2.jpg" alt="" class="service__item-img">
+                            </div>
+                            <div class="service__item-des">
+                                <div class="service__item-des-tit">
+                                    <a href="" class="service__item-des-name">Social Media Marketing</a>
+                                </div>
+                                <div class="service__item-des-text">
+                                    <a href="" class="service__item-des-cont">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <div class="service__item">
+                            <div class="service__item-icon">
+                                <img src="./assets/img/icon3.jpg" alt="" class="service__item-img">
+                            </div>
+                            <div class="service__item-des">
+                                <div class="service__item-des-tit">
+                                    <a href="" class="service__item-des-name">Brand & Logo Design</a>
+                                </div>
+                                <div class="service__item-des-text">
+                                    <a href="" class="service__item-des-cont">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <div class="service__item">
+                            <div class="service__item-icon">
+                                <img src="./assets/img/icon4.jpg" alt="" class="service__item-img">
+                            </div>
+                            <div class="service__item-des">
+                                <div class="service__item-des-tit">
+                                    <a href="" class="service__item-des-name">Social Media Advertising</a>
+                                </div>
+                                <div class="service__item-des-text">
+                                    <a href="" class="service__item-des-cont">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <div class="service__item">
+                            <div class="service__item-icon">
+                                <img src="./assets/img/icon5.jpg" alt="" class="service__item-img">
+                            </div>
+                            <div class="service__item-des">
+                                <div class="service__item-des-tit">
+                                    <a href="" class="service__item-des-name">Social Media Advertising</a>
+                                </div>
+                                <div class="service__item-des-text">
+                                    <a href="" class="service__item-des-cont">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <div class="service__item">
+                            <div class="service__item-icon">
+                                <img src="./assets/img/icon6.jpg" alt="" class="service__item-img">
+                            </div>
+                            <div class="service__item-des">
+                                <div class="service__item-des-tit">
+                                    <a href="" class="service__item-des-name">Web Design / Development</a>
+                                </div>
+                                <div class="service__item-des-text">
+                                    <a href="" class="service__item-des-cont">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- project -->
+        <div id="project" class="project">
+            <div class="grid wide">
+                <h2 class="project__tittle">Projects</h2>
+                <div class="project__nav">
+                    <div class="project__btn btn-active">
+                        <a href="" class="project__btn-text">ALL</a>
+                    </div>
+                    <div class="project__btn">
+                        <a href="" class="project__btn-text">WEB</a>
+                    </div>
+                    <div class="project__btn">
+                        <a href="" class="project__btn-text">DESIGN</a>
+                    </div>
+                    <div class="project__btn">
+                        <a href="" class="project__btn-text">BRAND</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l-4 m-12 c-12">
+                        <div class="project__item">
+                            <div class="project__img" style="background-image: url(./assets/img/pro1.jpg)">
+                                
+                            </div>
+                            <div class="project__img" style="background-image: url(./assets/img/pro2.jpg)">
+
+                            </div>
+                            <div class="project__img" style="background-image: url(./assets/img/pro3.jpg)">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="project__item">
+                            <div class="project__img" style="background-image: url(./assets/img/vader1.jpg)">
+
+                            </div>
+                            <div class="project__img" style="background-image: url(./assets/img/revan1.jpg)">
+
+                            </div>
+                            <div class="project__img" style="background-image: url(./assets/img/ren1.jpg)">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="project__item">
+                            <div class="project__img" style="background-image: url(./assets/img/archer1.jpg)">
+
+                            </div>
+                            <div class="project__img" style="background-image: url(./assets/img/sasaki1.jpg)">
+
+                            </div>
+                            <div class="project__img" style="background-image: url(./assets/img/mus1.jpg)">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- review -->
+        <div id="review" class="review">
+            <div class="grid wide">
+                <h2 class="review__tittle">What Are Clients Saying</h2>
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="review__des">
+                            <p class="review__des-text">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            </p>
+                            <p class="review__des-text-name">
+                                - Darth Vader
+                            </p>
+                        </div>
+                        <div class="dot">
+                            <span class="dot-btn dot-active"></span>
+                            <span class="dot-btn"></span>
+                            <span class="dot-btn"></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- blog post -->
+        <div id="post" class="post">
+            <div class="grid wide">
+                <h2 class="post__tittle">Blog Post</h2>
+                <div class="row">
+                    <div class="col l-4 m-12 c-12">
+                        <div class="post__item">
+                            <div class="post__item-img" style="background-image: url(./assets/img/ntr1.jpg)">
+
+                            </div>
+                            <div class="post__content">
+                                <h3 class="post__item-tittle">A small river named Duden flows by their place</h3>
+                            <div class="post__item-time">
+                                <span class="post__item-time-text">April 25, 2019</span>
+                            </div>
+                            <div class="post__item-des">
+                                <p class="post__item-des-text">
+                                    A small river named Djarin flows by their place and supplies it with the necessary regelialia.
+                                </p>
+                            </div>
+                            <div class="post__item-more">
+                                <a href="" class="post__item-link">Read More</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="post__item">
+                            <div class="post__item-img" style="background-image: url(./assets/img/ntr2.jpg)">
+
+                            </div>
+                            <div class="post__content">
+                                <h3 class="post__item-tittle">A small river named Duden flows by their place</h3>
+                            <div class="post__item-time">
+                                <span class="post__item-time-text">April 25, 2019</span>
+                            </div>
+                            <div class="post__item-des">
+                                <p class="post__item-des-text">
+                                    A small river named Djarin flows by their place and supplies it with the necessary regelialia.
+                                </p>
+                            </div>
+                            <div class="post__item-more">
+                                <a href="" class="post__item-link">Read More</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="post__item">
+                            <div class="post__item-img" style="background-image: url(./assets/img/ntr3.jpg)">
+
+                            </div>
+                            <div class="post__content">
+                                <h3 class="post__item-tittle">A small river named Duden flows by their place</h3>
+                            <div class="post__item-time">
+                                <span class="post__item-time-text">April 25, 2019</span>
+                            </div>
+                            <div class="post__item-des">
+                                <p class="post__item-des-text">
+                                    A small river named Djarin flows by their place and supplies it with the necessary regelialia.
+                                </p>
+                            </div>
+                            <div class="post__item-more">
+                                <a href="" class="post__item-link">Read More</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div id="contact" class="contact">
+            <div class="grid wide">
+                <h2 class="contact__tittle">Contact Form</h2>
+                <div class="row">
+                    <!-- input -->
+                    <div class="col l-6 m-12 c-12">
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <input type="text" name placeholder="First name" required class="contact__input">
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <input type="text" name placeholder="Last name" required class="contact__input">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-12 m-12 c-12">
+                                <input type="text" name placeholder="Email address" required class="contact__input">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-12 m-12 c-12">
+                                <input type="text" name placeholder="Subject of message" required class="contact__input">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-12 m-12 c-12">
+                                <input type="text" name placeholder="Type your message here" required class="contact__input contact__mes">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-12 m-12 c-12">
+                                <div class="contact__btn">
+                                    <a href="" class="contact__btn-link">Send Message</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- address -->
+                    <div class="contact__add col l-6 m-12 c-12">
+                        <div class="contact__address">
+                            <h2 class="contact__address-tittle">London</h2>
+                            <div class="contact__address-info">
+                                <span class="contact__address-info-tittle">Address</span>
+                                <span class="contact__address-info-des">203 Fake St. Mountain View, San Francisco, California, USA</span>
+                            </div>
+                            <div class="contact__address-info">
+                                <span class="contact__address-info-tittle">Phone</span>
+                                <span class="contact__address-info-des">+1 232 3235 324</span>
+                            </div>
+                            <div class="contact__address-info">
+                                <span class="contact__address-info-tittle">Email</span>
+                                <span class="contact__address-info-des">iamvader@domain.com</span>
+                            </div>
+                        </div>
+                        <div class="contact__address">
+                            <h2 class="contact__address-tittle">New York</h2>
+                            <div class="contact__address-info">
+                                <span class="contact__address-info-tittle">Address</span>
+                                <span class="contact__address-info-des">203 Fake St. Mountain View, San Francisco, California, USA</span>
+                            </div>
+                            <div class="contact__address-info">
+                                <span class="contact__address-info-tittle">Phone</span>
+                                <span class="contact__address-info-des">+1 232 3235 324</span>
+                            </div>
+                            <div class="contact__address-info">
+                                <span class="contact__address-info-tittle">Email</span>
+                                <span class="contact__address-info-des">iamvader@domain.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div id="footer" class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <!-- address -->
+                    <div class="col l-2-4 m-12 c-12">
+                        <div class="footer__col">
+                            <h2 class="footer__tittle">Address</h2>
+                            <ul class="footer__list">
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-link">
+                                        203 Fake St. Mountain View, San Francisco, California, USA
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- services -->
+                    <div class="col l-2-4 m-12 c-12">
+                        <div class="footer__col">
+                            <h2 class="footer__tittle">Services</h2>
+                            <ul class="footer__list">
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-link">
+                                        Content Marketing
+                                    </a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-link">
+                                        Brand & Logo
+                                    </a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-link">
+                                        Social Advertising
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- resources -->
+                    <div class="col l-2-4 m-12 c-12">
+                        <div class="footer__col">
+                            <h2 class="footer__tittle">Resources</h2>
+                            <ul class="footer__list">
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-link">
+                                        Social Marketing
+                                    </a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-link">
+                                        Web Design
+                                    </a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-link">
+                                        Web Development
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- templates -->
+                    <div class="col l-2-4 m-12 c-12">
+                        <div class="footer__col">
+                            <h2 class="footer__tittle">Templates</h2>
+                            <ul class="footer__list">
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-link">
+                                        Illustration
+                                    </a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-link">
+                                        Video Editing
+                                    </a>
+                                </li>
+                                <li class="footer__list-item">
+                                    <a href="" class="footer__list-link">
+                                        Copywriting
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- follow me -->
+                    <div class="col l-2-4 m-12 c-12">
+                        <div class="footer__col">
+                            <h2 class="footer__tittle">Follow Me</h2>
+                            <div class="footer__icon">
+                                <a href="" class="footer__icon-link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="" class="footer__icon-link">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="" class="footer__icon-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="" class="footer__icon-link">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer__end">
+                    Copyright © 2022 All rights reserved | This template is made with The Dark Side by DarthVader2
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
